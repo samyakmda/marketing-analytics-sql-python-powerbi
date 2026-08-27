@@ -107,12 +107,12 @@ marketing-analytics-sql-python-powerbi/
 ---
 <h2><a class="anchor" id="research-questions--key-findings"></a>Research Questions & Key Findings</h2>
 
-1. **Customer Engagement**: Which customers and marketing activities generate the highest engagement?
-2. **Customer Journey**: How do customers interact across different stages of the customer journey?
-3. **Product Performance**: Which products generate stronger customer engagement and feedback? (Ski Boots led January conversions at **150%**)
-4. **Customer Reviews**: What insights emerge from **275** positive vs. **82** negative sentiment reviews?
-5. **Marketing Performance**: Which marketing activities contribute most effectively to engagement, given a **15.37%** CTR?
-6. **Customer Experience**: What areas need improvement to move the average rating from **3.7** to the **4.0** target?
+1. **Conversion Performance**: January recorded the highest overall conversion rate at **18.5%**, driven by Ski Boots at a **150%** conversion rate; May was the lowest at **4.3%**, with no standout products
+2. **Customer Engagement**: Click-through rate stands at **15.37%**, showing engaged users interact effectively even as overall views decline from **August onward**
+3. **Content Performance**: Blog content drove the most views, especially in **April and July**, outperforming social media and video content
+4. **Customer Reviews**: Reviews skew positive — **140** at 4 stars and **135** at 5 stars — against **57** at 2 stars and **26** at 1 star
+5. **Sentiment Analysis**: **275** reviews carry positive sentiment vs. **82** negative, with a smaller mixed/neutral segment representing a conversion opportunity
+6. **Customer Satisfaction Gap**: Average rating holds at **3.7**, below the **4.0** target, pointing to focused improvement needs particularly for products rated below 3.5
 
 ---
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
