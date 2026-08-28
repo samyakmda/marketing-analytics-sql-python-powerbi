@@ -56,20 +56,28 @@ Effective marketing and customer engagement management are critical for improvin
 marketing-analytics-sql-python-powerbi/
 │
 ├── README.md
-├── Calendar DAX Script.txt
-├── Dashboard.pbix
-├── Marketing Analytics Business Case (Clean).pptx
-├── Presentation Example.pptx
-├── PortfolioProject_MarketingAnalytics.bak
 │
-├── customer_reviews_enrichment.py
-├── fact_customer_reviews_enrich.csv
+├── sql/
+│   ├── dim_customers.sql
+│   ├── dim_products.sql
+│   ├── fact_customer_journey.sql
+│   ├── fact_customer_reviews.sql
+│   └── fact_engagement_data.sql
 │
-├── dim_customers.sql
-├── dim_products.sql
-├── fact_customer_journey.sql
-├── fact_customer_reviews.sql
-└── fact_engagement_data.sql
+├── scripts/
+│   └── customer_reviews_enrichment.py
+│
+├── data/
+│   └── fact_customer_reviews_enrich.csv
+│
+├── dashboard/
+│   ├── Dashboard.pbix
+│   └── Calendar DAX Script.txt
+│
+└── docs/
+    ├── Marketing Analytics Business Case (Clean).pptx
+    ├── Presentation Example.pptx
+    └── PortfolioProject_MarketingAnalytics.bak
 ```
 
 ---
@@ -136,33 +144,33 @@ git clone https://github.com/samyakmda/marketing-analytics-sql-python-powerbi.gi
 ```
 2. Create the required SQL tables:
 ```
-dim_customers.sql
-dim_products.sql
-fact_customer_journey.sql
-fact_customer_reviews.sql
-fact_engagement_data.sql
+sql/dim_customers.sql
+sql/dim_products.sql
+sql/fact_customer_journey.sql
+sql/fact_customer_reviews.sql
+sql/fact_engagement_data.sql
 ```
 3. Run the customer review enrichment script:
 ```bash
-python customer_reviews_enrichment.py
+python scripts/customer_reviews_enrichment.py
 ```
 4. Open and review the enriched customer review dataset:
 ```
-fact_customer_reviews_enrich.csv
+data/fact_customer_reviews_enrich.csv
 ```
 5. Open Power BI Dashboard:
 ```
-Dashboard.pbix
+dashboard/Dashboard.pbix
 ```
 6. Use the calendar DAX script for time-based analysis:
 ```
-Calendar DAX Script.txt
+dashboard/Calendar DAX Script.txt
 ```
 
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
-- Target high-performing product categories (e.g., Ski Boots) with seasonal promotions during peak months like January
+- Target high-performing product categories — Kayaks, Ski Boots, and Baseball Gloves — with seasonal promotions during peak months like January and September
 - Revitalize content strategy to reverse the post-August decline in views — prioritize blog content, which drove the most engagement in April and July
 - Optimize call-to-action placement to lift click/like volume without losing the strong 15.37% CTR
 - Build a feedback loop to convert mixed/neutral reviews into positive ones, closing the gap from 3.7 to the 4.0 rating target
