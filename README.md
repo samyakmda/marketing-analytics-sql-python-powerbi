@@ -133,7 +133,7 @@ marketing-analytics-sql-python-powerbi/
   - Marketing Performance by Content Type
   - Key Performance Indicators (CTR: 15.37%, Avg. Rating: 3.7)
 
-![image alt](https://github.com/samyakmda/marketing-analytics-sql-python-powerbi/blob/bd4facc69a869d1fece2f985de07f8fdf3023155/DASHBOARD/Dashboard.pbix)
+![image alt](https://github.com/samyakmda/marketing-analytics-sql-python-powerbi/blob/fd098adf6316c052c55c78138276dfa88ee84ef4/Images/Screenshot%202026-08-27%20190506.png)
 
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
